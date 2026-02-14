@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+      font-family: "Outfit", sans-serif;
+      padding: 20px;
+      margin: 20px;
+}
+.section-one{
+    background-color:lightcoral;
+    color:aliceblue;
+    padding: 15px;
+    text-align: center;
+    border-radius: 3px;
+}
+.section-one__desc{
+    padding-top: 10px;
+}
+.container{
+    padding-top: 20px;
+    margin: 20px;
+    
+    display: flex;
+    flex-wrap:wrap ;
+    justify-content: space-around;
+}
+.section-two,.section-three,.section-four,.section-five{
+    margin-right: 15px;
+    margin-left: 15px;
+    border: solid black 3px;
+    border-radius: 5px;
+    
+}
+.btn{
+    background-color:lightcoral;
+    color: azure;
+    padding: 5px;
+    margin: 30px;
+    margin-left: 60px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.btn:hover{
+    background-color:darksalmon;
+    
+}
+.name{
+    text-align: center;
+    font-weight: bolder;
+    margin-top: 10px;
+}
+.desc{
+    text-align: center;
+    margin-top: 10px;
+}
+.contact{
+    padding-left: 40%;
+    background-color:lightcoral;
+      
+      border-radius: 3px;
+}
+.contact-name{
+    margin-left: 66px;
+    margin-bottom: 15px;
+    padding-top: 15px;
+}
+.send{
+    background-color:goldenrod;
+    width: 280px;
+    padding: 5px;
+    margin: 20px;
+    border-radius: 2px;
+}
